@@ -15,7 +15,6 @@ A REST API for tracking and analyzing website visits with JWT authentication.
   	Visits by device type
   	Daily visit trends
 -Dev Tools
-  	Fake data generator (10,000 sample visits)
   	SQLite database (default)
   	Postman documentation
 
@@ -131,7 +130,7 @@ Analytics_API/
 │   └── management/       # Fake data command
 ├── users/                # Authentication app
 │   ├── serializers.py    # User registration
-│   └── views.py         # Auth endpoints
+│   └── views.py          # Auth endpoints
 ├── .env                  # Environment variables
 └── requirements.txt      # Dependencies
 
